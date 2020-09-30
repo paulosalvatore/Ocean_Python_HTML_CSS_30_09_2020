@@ -3,34 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jogo do Ocean com Python</title>
 </head>
 <body>
-    <!-- Comentários não são exibidos na página -->
+    <div class="jogo">
+        <form method="post">
 
-    Minha primeira página<br>
-    <br>
-    Primeira frase<br>
-    <br>
-    <b>Um texto em negrito</b><br>
-    <i>Um texto em itálico</i><br>
-    <u>Um texto sublinhado</u><br>
+            <div class="jogo__input">
+                <label for="nome_jogador">Digite o seu nome</label>
+                <input type="text" name="nome_jogador" id="nome_jogador" placeholder="Digite o seu nome" required>
+            </div>
 
-    <!-- Div é bloco utilizado como grupo de informações -->
+            <div class="jogo__input">
+                <input type="radio" name="escolha" id="escolha1" value="futurista" checked>
+                <label for="escolha1">Futurista</label>
+                
+                <input type="radio" name="escolha" id="escolha2" value="medieval">
+                <label for="escolha2">Era Medieval</label>
+            </div>
 
-    <div id="bloco_principal" class="blocos_informacao">
-        Esse é o meu bloco de div<br>
+            <div class="jogo__input">
+                <input type="submit" class="jogo__botao" value="Jogar!">
+            </div>
 
-        <span>Esse é um texto dentro do span</span>
-    </div>
-
-    <div class="blocos_informacao">
-        Esse é o meu segundo bloco de div
-    </div>
-
-    <div class="blocos_imagem">
-        Esse é o meu terceiro bloco de div
+        </form>
     </div>
 </body>
 </html>
