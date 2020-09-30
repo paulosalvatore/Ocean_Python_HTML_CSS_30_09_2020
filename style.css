@@ -7,3 +7,32 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px 0;
 }
+
+.jogo {
+    width: 500px;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    padding: 20px 0;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-radius: 15px;
+}
+
+.jogo .jogo__input {
+    padding: 10px;
+}
+
+.jogo .jogo__input .jogo__label.jogo__label--nome {
+    padding-right: 10px;
+}
+
+.jogo .jogo__botao {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
