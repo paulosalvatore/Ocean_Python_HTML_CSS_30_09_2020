@@ -37,3 +37,13 @@ body {
     font-size: 16px;
     border-radius: 10px;
 }
+
+.jogo .jogo__premio {
+    margin-bottom: 15px;
+    color: #4CAF50;
+    font-size: 22px;
+}
+
+.jogo .jogo__input.jogo__input--jogar-novamente {
+    padding-top: 25px;
+}
